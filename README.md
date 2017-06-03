@@ -27,6 +27,10 @@ Data set downloaded on: June 3rd 2017
 	The final tidy data set; content and structure are described in "CodeBook.md"
 
 
+### description of the script
+
+* A step-by-step description is contained in the comments of "run_analysis.R"
+* A summary of the data processing and the used variables can be found in "CodeBook.md"
 
 
 

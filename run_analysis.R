@@ -9,10 +9,11 @@ library(plyr)
 library(data.table)
 library(reshape2)
 
-# replace with your desired working directory
-setwd("C:/Users/Phil/Desktop/Coursera/cleaning")
 
+# set working directory, if the data is located somewhere else
+# setwd("C:/Wherever/You/Want/Your/WD")
 
+##--- this section can be commented out, if the data is already in the WD------
 ##----load data----
 if(!file.exists("data")){
         dir.create("data")
@@ -22,7 +23,7 @@ zip_url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 download.file(url=zip_url, destfile="./data/ActivityData.zip", method="curl")    
 dateDownloaded <- Sys.time()
 unzip("./data/ActivityData.zip", exdir="./data")
-
+####---------##### -------########-----#######---------------#########-----
 
 
 
